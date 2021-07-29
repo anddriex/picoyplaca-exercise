@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit'
-import restrictionScheduleReducer from '../restrictionSchedule/restrictionScheduleSlice'
+import restrictionScheduleReducer from './restrictionScheduleSlice'
 
 export const store = configureStore({
     reducer: {
-        restrictionsSchedule: restrictionScheduleReducer
+        restrictionSchedule: restrictionScheduleReducer
     }
 })
 
